@@ -1,0 +1,107 @@
+body{
+    /*color:gray;*/
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'  ,sans-serif;
+}
+/*コメント*/
+header{
+    text-align:center;
+    background:skyblue;
+    font-weight:bold;
+    color:white;
+}
+header h1{
+    font-size:50px;
+    text-shadow:2px 1px 2px gray;
+}
+
+#nav ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+#nav ul li{
+    background:rgb(75, 150, 180);
+    width:110px;
+    padding:10px 0;
+    margin:0 10px 10px 10px;
+}
+
+a{
+    text-decoration:none;
+    color:cadetblue;
+}
+
+a:hover{
+    color:cyan;
+}
+
+a:visited{
+    color:darkorchid;
+}
+
+main{
+    font-size:17px;
+    margin:0 10px 0 10px;
+    padding:0 20px 10px 20px;
+    background-color:gainsboro;
+    line-height:2;
+}
+
+main h2{
+    font-size:25px;
+}
+
+#camera,#camera_monitor{
+    position:relative;
+    padding:0;
+}
+
+#camera img,#camera_monitor img{
+    width:30%;
+    min-width:350px;
+    padding:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a:hover  #camera,a:hover #camera_monitor{
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    opacity:0.7;
+}
+
+.back_camera,.back_camera_monitor{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    color:white;
+    background-color:dodgerblue;
+    width:120px;
+    padding:5px 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+
+footer{
+    text-align:center;
+    color:white;
+    font-size:10px;
+    background-color:dimgray;
+    padding:10px 0 20px 0;
+}
+
+footer a{
+    color:deepskyblue;
+}
+footer a:visited{
+    color:deepskyblue;
+}
+footer a:hover{
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    opacity:0.7;
+}
